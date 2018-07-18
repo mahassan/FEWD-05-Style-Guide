@@ -1,5 +1,8 @@
-.grid__{
-    @for $i from 1 through 12 {
-    @include themes($grids)
-    }
+.grid__col{
+        @include themes($grids)
+}
+.container,
+.headline--secondary{
+    @include flexy($display:grid, $direction:column);
+    justify-content: center;
 }

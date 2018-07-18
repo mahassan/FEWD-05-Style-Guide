@@ -1,5 +1,5 @@
 .form{
-  
+    @include flexy($display:flex, $direction:column);
     &__label--hidden{
         display: none;
     }

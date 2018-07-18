@@ -346,437 +346,66 @@ p {
   color: #5a5a5a;
 }
 
-.grid__col--2 {
+.grid__col--2.theme__colors {
   background: #c8bccc;
   display: flex;
   margin: 7px;
   padding: 10px;
 }
-.grid__col--3 {
+.grid__col--3.theme__colors {
   background: #7ee6fd;
   display: flex;
   margin: 7px;
   padding: 10px;
 }
-.grid__col--4 {
+.grid__col--4.theme__colors {
   background: #88d9a0;
   display: flex;
   margin: 7px;
   padding: 10px;
 }
-.grid__col--5 {
+.grid__col--5.theme__colors {
   background: #3fabca;
   display: flex;
   margin: 7px;
   padding: 10px;
 }
-.grid__col--6 {
+.grid__col--6.theme__colors {
   background: #ec9fa3;
   display: flex;
   margin: 7px;
   padding: 10px;
 }
-.grid__col--7 {
+.grid__col--7.theme__colors {
   background: #fd9f85;
   display: flex;
   margin: 7px;
   padding: 10px;
 }
-.grid__col--2 {
-  background: #c8bccc;
-  display: flex;
-  margin: 7px;
-  padding: 10px;
-}
-.grid__col--3 {
-  background: #7ee6fd;
-  display: flex;
-  margin: 7px;
-  padding: 10px;
-}
-.grid__col--4 {
-  background: #88d9a0;
-  display: flex;
-  margin: 7px;
-  padding: 10px;
-}
-.grid__col--5 {
-  background: #3fabca;
-  display: flex;
-  margin: 7px;
-  padding: 10px;
-}
-.grid__col--6 {
-  background: #ec9fa3;
-  display: flex;
-  margin: 7px;
-  padding: 10px;
-}
-.grid__col--7 {
+.grid__col--8.theme__colors {
   background: #fd9f85;
   display: flex;
   margin: 7px;
   padding: 10px;
 }
-.grid__col--2 {
-  background: #c8bccc;
-  display: flex;
-  margin: 7px;
-  padding: 10px;
-}
-.grid__col--3 {
-  background: #7ee6fd;
-  display: flex;
-  margin: 7px;
-  padding: 10px;
-}
-.grid__col--4 {
-  background: #88d9a0;
-  display: flex;
-  margin: 7px;
-  padding: 10px;
-}
-.grid__col--5 {
-  background: #3fabca;
-  display: flex;
-  margin: 7px;
-  padding: 10px;
-}
-.grid__col--6 {
-  background: #ec9fa3;
-  display: flex;
-  margin: 7px;
-  padding: 10px;
-}
-.grid__col--7 {
+.grid__col--9.theme__colors {
   background: #fd9f85;
   display: flex;
   margin: 7px;
   padding: 10px;
 }
-.grid__col--2 {
-  background: #c8bccc;
+.grid__col--12.theme__colors {
+  background: #80e8d1;
   display: flex;
   margin: 7px;
   padding: 10px;
 }
-.grid__col--3 {
-  background: #7ee6fd;
-  display: flex;
-  margin: 7px;
-  padding: 10px;
-}
-.grid__col--4 {
-  background: #88d9a0;
-  display: flex;
-  margin: 7px;
-  padding: 10px;
-}
-.grid__col--5 {
-  background: #3fabca;
-  display: flex;
-  margin: 7px;
-  padding: 10px;
-}
-.grid__col--6 {
-  background: #ec9fa3;
-  display: flex;
-  margin: 7px;
-  padding: 10px;
-}
-.grid__col--7 {
-  background: #fd9f85;
-  display: flex;
-  margin: 7px;
-  padding: 10px;
-}
-.grid__col--2 {
-  background: #c8bccc;
-  display: flex;
-  margin: 7px;
-  padding: 10px;
-}
-.grid__col--3 {
-  background: #7ee6fd;
-  display: flex;
-  margin: 7px;
-  padding: 10px;
-}
-.grid__col--4 {
-  background: #88d9a0;
-  display: flex;
-  margin: 7px;
-  padding: 10px;
-}
-.grid__col--5 {
-  background: #3fabca;
-  display: flex;
-  margin: 7px;
-  padding: 10px;
-}
-.grid__col--6 {
-  background: #ec9fa3;
-  display: flex;
-  margin: 7px;
-  padding: 10px;
-}
-.grid__col--7 {
-  background: #fd9f85;
-  display: flex;
-  margin: 7px;
-  padding: 10px;
-}
-.grid__col--2 {
-  background: #c8bccc;
-  display: flex;
-  margin: 7px;
-  padding: 10px;
-}
-.grid__col--3 {
-  background: #7ee6fd;
-  display: flex;
-  margin: 7px;
-  padding: 10px;
-}
-.grid__col--4 {
-  background: #88d9a0;
-  display: flex;
-  margin: 7px;
-  padding: 10px;
-}
-.grid__col--5 {
-  background: #3fabca;
-  display: flex;
-  margin: 7px;
-  padding: 10px;
-}
-.grid__col--6 {
-  background: #ec9fa3;
-  display: flex;
-  margin: 7px;
-  padding: 10px;
-}
-.grid__col--7 {
-  background: #fd9f85;
-  display: flex;
-  margin: 7px;
-  padding: 10px;
-}
-.grid__col--2 {
-  background: #c8bccc;
-  display: flex;
-  margin: 7px;
-  padding: 10px;
-}
-.grid__col--3 {
-  background: #7ee6fd;
-  display: flex;
-  margin: 7px;
-  padding: 10px;
-}
-.grid__col--4 {
-  background: #88d9a0;
-  display: flex;
-  margin: 7px;
-  padding: 10px;
-}
-.grid__col--5 {
-  background: #3fabca;
-  display: flex;
-  margin: 7px;
-  padding: 10px;
-}
-.grid__col--6 {
-  background: #ec9fa3;
-  display: flex;
-  margin: 7px;
-  padding: 10px;
-}
-.grid__col--7 {
-  background: #fd9f85;
-  display: flex;
-  margin: 7px;
-  padding: 10px;
-}
-.grid__col--2 {
-  background: #c8bccc;
-  display: flex;
-  margin: 7px;
-  padding: 10px;
-}
-.grid__col--3 {
-  background: #7ee6fd;
-  display: flex;
-  margin: 7px;
-  padding: 10px;
-}
-.grid__col--4 {
-  background: #88d9a0;
-  display: flex;
-  margin: 7px;
-  padding: 10px;
-}
-.grid__col--5 {
-  background: #3fabca;
-  display: flex;
-  margin: 7px;
-  padding: 10px;
-}
-.grid__col--6 {
-  background: #ec9fa3;
-  display: flex;
-  margin: 7px;
-  padding: 10px;
-}
-.grid__col--7 {
-  background: #fd9f85;
-  display: flex;
-  margin: 7px;
-  padding: 10px;
-}
-.grid__col--2 {
-  background: #c8bccc;
-  display: flex;
-  margin: 7px;
-  padding: 10px;
-}
-.grid__col--3 {
-  background: #7ee6fd;
-  display: flex;
-  margin: 7px;
-  padding: 10px;
-}
-.grid__col--4 {
-  background: #88d9a0;
-  display: flex;
-  margin: 7px;
-  padding: 10px;
-}
-.grid__col--5 {
-  background: #3fabca;
-  display: flex;
-  margin: 7px;
-  padding: 10px;
-}
-.grid__col--6 {
-  background: #ec9fa3;
-  display: flex;
-  margin: 7px;
-  padding: 10px;
-}
-.grid__col--7 {
-  background: #fd9f85;
-  display: flex;
-  margin: 7px;
-  padding: 10px;
-}
-.grid__col--2 {
-  background: #c8bccc;
-  display: flex;
-  margin: 7px;
-  padding: 10px;
-}
-.grid__col--3 {
-  background: #7ee6fd;
-  display: flex;
-  margin: 7px;
-  padding: 10px;
-}
-.grid__col--4 {
-  background: #88d9a0;
-  display: flex;
-  margin: 7px;
-  padding: 10px;
-}
-.grid__col--5 {
-  background: #3fabca;
-  display: flex;
-  margin: 7px;
-  padding: 10px;
-}
-.grid__col--6 {
-  background: #ec9fa3;
-  display: flex;
-  margin: 7px;
-  padding: 10px;
-}
-.grid__col--7 {
-  background: #fd9f85;
-  display: flex;
-  margin: 7px;
-  padding: 10px;
-}
-.grid__col--2 {
-  background: #c8bccc;
-  display: flex;
-  margin: 7px;
-  padding: 10px;
-}
-.grid__col--3 {
-  background: #7ee6fd;
-  display: flex;
-  margin: 7px;
-  padding: 10px;
-}
-.grid__col--4 {
-  background: #88d9a0;
-  display: flex;
-  margin: 7px;
-  padding: 10px;
-}
-.grid__col--5 {
-  background: #3fabca;
-  display: flex;
-  margin: 7px;
-  padding: 10px;
-}
-.grid__col--6 {
-  background: #ec9fa3;
-  display: flex;
-  margin: 7px;
-  padding: 10px;
-}
-.grid__col--7 {
-  background: #fd9f85;
-  display: flex;
-  margin: 7px;
-  padding: 10px;
-}
-.grid__col--2 {
-  background: #c8bccc;
-  display: flex;
-  margin: 7px;
-  padding: 10px;
-}
-.grid__col--3 {
-  background: #7ee6fd;
-  display: flex;
-  margin: 7px;
-  padding: 10px;
-}
-.grid__col--4 {
-  background: #88d9a0;
-  display: flex;
-  margin: 7px;
-  padding: 10px;
-}
-.grid__col--5 {
-  background: #3fabca;
-  display: flex;
-  margin: 7px;
-  padding: 10px;
-}
-.grid__col--6 {
-  background: #ec9fa3;
-  display: flex;
-  margin: 7px;
-  padding: 10px;
-}
-.grid__col--7 {
-  background: #fd9f85;
-  display: flex;
-  margin: 7px;
-  padding: 10px;
+
+.container,
+.headline--secondary {
+  display: grid;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .card blockquote {
@@ -793,6 +422,9 @@ p {
 .grid__row {
   display: flex;
   flex-direction: column;
+}
+.grid__row li {
+  text-align: center;
 }
 .grid__row li a {
   text-decoration: none;
@@ -814,37 +446,41 @@ p {
   align-self: center;
 }
 
-.btndefault {
+.btn--default.theme__colors {
   background: #58e1c1;
   display: flex;
   margin: 7px;
   padding: 10px;
 }
-.btnsuccess {
+.btn--success.theme__colors {
   background: #63cc82;
   display: flex;
   margin: 7px;
   padding: 10px;
 }
-.btnerror {
+.btn--error.theme__colors {
   background: #e4757e;
   display: flex;
   margin: 7px;
   padding: 10px;
 }
-.btnwarning {
+.btn--warning.theme__colors {
   background: #fd7856;
   display: flex;
   margin: 7px;
   padding: 10px;
 }
-.btninfo {
+.btn--info.theme__colors {
   background: #927bc1;
   display: flex;
   margin: 7px;
   padding: 10px;
 }
 
+.form {
+  display: flex;
+  flex-direction: column;
+}
 .form__label--hidden {
   display: none;
 }

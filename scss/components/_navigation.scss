@@ -4,6 +4,7 @@
     @include flexy($display:flex,$direction:column);
     //text-align: center;
     li{
+        text-align: center;
             a{
             text-decoration: none;
             display: block;

@@ -14,13 +14,12 @@
 @mixin blockquote($color){
     border:50px left $color;
 }
-
 @mixin themes($map){
-    @each $button, $color in $map {
-        &#{$button}{
+    @each $theme, $color in $map {
+        &--#{$theme}.theme__colors{
             background:$color;
             @include flexy($display:flex);
             @include spacer($margin:7px , $padding:10px);
         }
     }
-}
+ }
