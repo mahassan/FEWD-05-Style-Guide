@@ -26,12 +26,12 @@ $buttons : (
     info    : #927bc1,
 );
 
-//grid
+/*Grid system*/
 $grids : (
-    grid    : #c8bccc,
-    grid-4  : #7ee6fd,
-    grid-5  : #88d9a0,
-    grid-6  : #3fabca,
-    grid-7  : #ec9fa3,
-    grid-8  : #fd9f85,
+    col--2    : #c8bccc,
+    col--3  : #7ee6fd,
+    col--4  : #88d9a0,
+    col--5  : #3fabca,
+    col--6  : #ec9fa3,
+    col--7  : #fd9f85,
 )

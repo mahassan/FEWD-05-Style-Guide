@@ -7,6 +7,9 @@ body{
     font-family: $font-primary;
     @include spacer($margin:40px)
 }
+ul{
+    list-style: none;
+}
 p{
     color:$color-text;
 }

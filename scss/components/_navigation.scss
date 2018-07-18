@@ -1,8 +1,8 @@
-.nav{
-    @include spacer($padding:0);
-    list-style: none;
+.grid__row{
+    //@include spacer($padding:0);
+    //list-style: none;
     @include flexy($display:flex,$direction:column);
-    text-align: center;
+    //text-align: center;
     li{
             a{
             text-decoration: none;

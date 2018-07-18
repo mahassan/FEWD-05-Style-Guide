@@ -17,12 +17,10 @@
 
 @mixin themes($map){
     @each $button, $color in $map {
-        &--#{$button}{
+        &#{$button}{
             background:$color;
-            @include flexy($display:flex,$direction:column);
+            @include flexy($display:flex);
             @include spacer($margin:7px , $padding:10px);
-            border:0;
-            color: $white;
         }
     }
 }
