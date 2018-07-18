@@ -1,1 +1,12 @@
-@import '_normalize.css'
+@import '_normalize.css',
+'../utilites/variable',
+'../utilites/mixins';
+
+/* Base Styles */
+body{
+    font-family: $font-primary;
+    @include spacer($margin:40px)
+}
+p{
+    color:$color-text;
+}

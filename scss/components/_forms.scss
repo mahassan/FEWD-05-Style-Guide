@@ -1,0 +1,12 @@
+.form{
+  
+    &__label--hidden{
+        display: none;
+    }
+    &__input{
+        padding:10px;
+        border:0;
+        border-bottom:7px solid $color-primary;
+        @include spacer($margin : 5px);
+    }
+}

@@ -1,0 +1,5 @@
+.grid{
+    @for $i from 1 through 12 {
+    @include themes($grids)
+    }
+}

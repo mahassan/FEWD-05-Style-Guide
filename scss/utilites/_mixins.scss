@@ -1,0 +1,28 @@
+@mixin flexy($display: null, $direction: null,$alignment:null) {
+    display:$display;
+    flex-direction: $direction;
+}
+@mixin  roundy($color:null, $corners:null) {
+    color:$color;
+    border-radius: $corners;
+}
+@mixin spacer($margin:null, $padding:null){
+    margin:$margin;
+    padding:$padding;
+    
+}
+@mixin blockquote($color){
+    border:50px left $color;
+}
+
+@mixin themes($map){
+    @each $button, $color in $map {
+        &--#{$button}{
+            background:$color;
+            @include flexy($display:flex,$direction:column);
+            @include spacer($margin:7px , $padding:10px);
+            border:0;
+            color: $white;
+        }
+    }
+}

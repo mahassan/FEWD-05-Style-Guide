@@ -1,0 +1,19 @@
+.nav{
+    @include spacer($padding:0);
+    list-style: none;
+    @include flexy($display:flex,$direction:column);
+    text-align: center;
+    li{
+            a{
+            text-decoration: none;
+            display: block;
+            @include spacer($margin:5px, $padding:10px);
+            color:$color-text;
+            &:hover{
+                background:$color-primary;
+                color: $white;
+                @include roundy(25px);
+            }
+        }
+    }
+}

@@ -1,0 +1,37 @@
+$color-primary      :   #58e1c1;
+$color-secondary    : #51ddfc;
+$color-text         : #5a5a5a;
+$white              : #fff;
+
+
+
+// font variables
+$font-primary       :  "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+
+//breakpoints 
+
+$medium             : 769px;
+
+//Images url
+
+$logo               :"../utilites/scss/images/logo.png";
+
+//Buttons
+
+$buttons : (
+    default : $color-primary,
+    success : #63cc82,
+    error   : #e4757e,
+    warning : #fd7856,
+    info    : #927bc1,
+);
+
+//grid
+$grids : (
+    grid    : #c8bccc,
+    grid-4  : #7ee6fd,
+    grid-5  : #88d9a0,
+    grid-6  : #3fabca,
+    grid-7  : #ec9fa3,
+    grid-8  : #fd9f85,
+)

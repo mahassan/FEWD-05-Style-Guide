@@ -1,0 +1,15 @@
+.card{
+    h1{
+        color:$color-primary;
+    }
+    blockquote{
+        @include blockquote($color-primary);
+    }
+    >p{
+        text-align: left;
+        line-height: 1.5em;
+    }
+    a{
+       @extend %anchors; 
+    }
+}
