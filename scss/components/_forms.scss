@@ -1,5 +1,5 @@
 .form{
-    @include flexy($display:flex, $direction:column);
+    // @include flexy($display:flex, $direction:column);
     &__label--hidden{
         display: none;
     }
@@ -8,5 +8,6 @@
         border:0;
         border-bottom:7px solid $color-primary;
         @include spacer($margin : 5px);
+        display:flex;
     }
 }

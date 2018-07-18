@@ -1,13 +1,7 @@
 .card{
-    h1{
-
-    }
-    blockquote{
-        @include blockquote($color-primary);
-    }
     >p{
         text-align: left;
-        line-height: 1.5em;
+        line-height: 2em;
     }
     a{
        @extend %anchors; 
@@ -17,4 +11,11 @@
     &--primary{
         color:$color-primary;
     }
+}
+blockquote{
+    border-left:10px solid $color-primary;
+    padding-left:10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    line-height: 1.5em;
 }

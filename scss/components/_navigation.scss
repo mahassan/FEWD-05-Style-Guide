@@ -1,8 +1,14 @@
-.grid__row{
+.grid__row:first-of-type,ul{
     //@include spacer($padding:0);
     //list-style: none;
-    @include flexy($display:flex,$direction:column);
+    //@include flexy($display:flex,$direction:column);
     //text-align: center;
+    @media screen and (min-width: 769px){
+       @include flexy($display:flex);
+       ul{
+           float:right;
+       }
+    }
     li{
         text-align: center;
             a{
@@ -17,4 +23,9 @@
             }
         }
     }
+}
+.grid__row:first-of-type{
+    @media screen and (min-width: 769px){
+        justify-content: space-between;
+     }
 }

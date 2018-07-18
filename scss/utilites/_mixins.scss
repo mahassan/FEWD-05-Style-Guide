@@ -1,6 +1,7 @@
 @mixin flexy($display: null, $direction: null,$alignment:null) {
     display:$display;
     flex-direction: $direction;
+    @content;
 }
 @mixin  roundy($color:null, $corners:null) {
     color:$color;
