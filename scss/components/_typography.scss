@@ -12,10 +12,11 @@
         color:$color-primary;
     }
 }
-blockquote{
+.blockquote{
     border-left:10px solid $color-primary;
     padding-left:10px;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
     line-height: 1.5em;
+    font-size:1.3em;
 }

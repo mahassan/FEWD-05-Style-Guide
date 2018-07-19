@@ -5,3 +5,10 @@
     width: 90%;
     margin:20px auto;
 }
+
+[class^=grid__col]{
+    @include flexy($display:flex, $direction:column);
+}
+[class^=grid__col]:first-of-type{
+   margin-top:50px;
+}
