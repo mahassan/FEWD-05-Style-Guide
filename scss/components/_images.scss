@@ -13,5 +13,9 @@
     &--frame:first-child{
        border:1px solid lighten($color-text, 40%);
        padding:10px;
+        @media screen and (min-width:768px){
+            width:402px;
+            height: 200px;
+        }
     }
 }

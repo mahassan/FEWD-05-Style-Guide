@@ -1,15 +1,31 @@
-.grid__col{
-        @include themes($grids);
-        color:$color-text;
-}
 .container{
     width: 90%;
     margin:20px auto;
 }
-
+.grid__col{
+        @include themes($grids);
+        color:$color-text;
+}
 [class^=grid__col]{
     @include flexy($display:flex, $direction:column);
 }
 [class^=grid__col]:first-of-type{
    margin-top:50px;
+   @media screen and (min-width:768px){
+       margin-top:0;
+   }
+}
+.grid__row:not(:first-child){
+    @media screen and (min-width:768px){
+        @include flexy($display:flex);
+        [class^=grid__col]{
+            flex: 1;
+        }
+    }
+}
+.grid__row:nth-child(4){
+    @media screen and (min-width:768px){
+        @include flexy($display:flex);
+        border:11px solid red;
+    }
 }

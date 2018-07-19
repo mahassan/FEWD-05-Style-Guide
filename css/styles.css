@@ -18,6 +18,11 @@ h4 {
   font-weight: 100;
 }
 
+.container {
+  width: 90%;
+  margin: 20px auto;
+}
+
 .grid__col {
   color: #5a5a5a;
 }
@@ -28,31 +33,31 @@ h4 {
   border-radius: 5px;
 }
 .grid__col--3.theme__colors {
-  background: #7ee6fd;
+  background: #deb2ee;
   margin: 7px;
   padding: 10px;
   border-radius: 5px;
 }
 .grid__col--4.theme__colors {
-  background: #88d9a0;
+  background: #51ddfc;
   margin: 7px;
   padding: 10px;
   border-radius: 5px;
 }
 .grid__col--5.theme__colors {
-  background: #3fabca;
+  background: #88d9a0;
   margin: 7px;
   padding: 10px;
   border-radius: 5px;
 }
 .grid__col--6.theme__colors {
-  background: #ec9fa3;
+  background: #3fabca;
   margin: 7px;
   padding: 10px;
   border-radius: 5px;
 }
 .grid__col--7.theme__colors {
-  background: #fd9f85;
+  background: #ec9fa3;
   margin: 7px;
   padding: 10px;
   border-radius: 5px;
@@ -70,15 +75,10 @@ h4 {
   border-radius: 5px;
 }
 .grid__col--12.theme__colors {
-  background: #80e8d1;
+  background: #58e1c1;
   margin: 7px;
   padding: 10px;
   border-radius: 5px;
-}
-
-.container {
-  width: 90%;
-  margin: 20px auto;
 }
 
 [class^=grid__col] {
@@ -88,6 +88,27 @@ h4 {
 
 [class^=grid__col]:first-of-type {
   margin-top: 50px;
+}
+@media screen and (min-width: 768px) {
+  [class^=grid__col]:first-of-type {
+    margin-top: 0;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .grid__row:not(:first-child) {
+    display: flex;
+  }
+  .grid__row:not(:first-child) [class^=grid__col] {
+    flex: 1;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .grid__row:nth-child(4) {
+    display: flex;
+    border: 11px solid red;
+  }
 }
 
 .card > p {
@@ -150,6 +171,12 @@ h4 {
 .img--frame:first-child {
   border: 1px solid silver;
   padding: 10px;
+}
+@media screen and (min-width: 768px) {
+  .img--frame:first-child {
+    width: 402px;
+    height: 200px;
+  }
 }
 
 .btn--default.theme__colors {
