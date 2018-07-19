@@ -18,13 +18,15 @@
 @mixin alignment($position){
     text-align: $position;
 }
-@mixin themes($map){
+@mixin themes($map, $text:null,$typecase:null){
     @each $theme, $color in $map {
         &--#{$theme}.theme__colors{
             background:$color;
             @include spacer($margin:7px , $padding:10px);
             @include roundy($corners:5px);
-            color:$white;
+            @content;
+            color:$text;
+            text-transform: $typecase;
         }
     }
  }

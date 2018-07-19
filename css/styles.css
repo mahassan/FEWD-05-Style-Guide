@@ -18,68 +18,62 @@ h4 {
   font-weight: 100;
 }
 
+.grid__col {
+  color: #5a5a5a;
+}
 .grid__col--2.theme__colors {
   background: #c8bccc;
   margin: 7px;
   padding: 10px;
   border-radius: 5px;
-  color: #fff;
 }
 .grid__col--3.theme__colors {
   background: #7ee6fd;
   margin: 7px;
   padding: 10px;
   border-radius: 5px;
-  color: #fff;
 }
 .grid__col--4.theme__colors {
   background: #88d9a0;
   margin: 7px;
   padding: 10px;
   border-radius: 5px;
-  color: #fff;
 }
 .grid__col--5.theme__colors {
   background: #3fabca;
   margin: 7px;
   padding: 10px;
   border-radius: 5px;
-  color: #fff;
 }
 .grid__col--6.theme__colors {
   background: #ec9fa3;
   margin: 7px;
   padding: 10px;
   border-radius: 5px;
-  color: #fff;
 }
 .grid__col--7.theme__colors {
   background: #fd9f85;
   margin: 7px;
   padding: 10px;
   border-radius: 5px;
-  color: #fff;
 }
 .grid__col--8.theme__colors {
   background: #fd9f85;
   margin: 7px;
   padding: 10px;
   border-radius: 5px;
-  color: #fff;
 }
 .grid__col--9.theme__colors {
   background: #fd9f85;
   margin: 7px;
   padding: 10px;
   border-radius: 5px;
-  color: #fff;
 }
 .grid__col--12.theme__colors {
   background: #80e8d1;
   margin: 7px;
   padding: 10px;
   border-radius: 5px;
-  color: #fff;
 }
 
 .container {
@@ -144,7 +138,8 @@ h4 {
 }
 
 .img--logo {
-  align-self: center;
+  display: block;
+  margin: 0 auto;
 }
 .img--avatar, .img--frame {
   width: 200px;
@@ -162,35 +157,40 @@ h4 {
   margin: 7px;
   padding: 10px;
   border-radius: 5px;
-  color: #fff;
+  color: white;
+  text-transform: uppercase;
 }
 .btn--success.theme__colors {
   background: #63cc82;
   margin: 7px;
   padding: 10px;
   border-radius: 5px;
-  color: #fff;
+  color: white;
+  text-transform: uppercase;
 }
 .btn--error.theme__colors {
   background: #e4757e;
   margin: 7px;
   padding: 10px;
   border-radius: 5px;
-  color: #fff;
+  color: white;
+  text-transform: uppercase;
 }
 .btn--warning.theme__colors {
   background: #fd7856;
   margin: 7px;
   padding: 10px;
   border-radius: 5px;
-  color: #fff;
+  color: white;
+  text-transform: uppercase;
 }
 .btn--info.theme__colors {
   background: #927bc1;
   margin: 7px;
   padding: 10px;
   border-radius: 5px;
-  color: #fff;
+  color: white;
+  text-transform: uppercase;
 }
 
 .form {
@@ -207,7 +207,6 @@ h4 {
   margin: 5px;
   display: flex;
 }
-
 /*Grid system*/
 .card a {
   color: #51ddfc;

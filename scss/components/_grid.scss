@@ -1,5 +1,6 @@
 .grid__col{
-        @include themes($grids)
+        @include themes($grids);
+        color:$color-text;
 }
 .container{
     width: 90%;

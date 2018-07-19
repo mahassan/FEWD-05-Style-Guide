@@ -10,4 +10,7 @@
         @include spacer($margin : 5px);
         display:flex;
     }
+    button {
+        background:map-get($buttons , 2 );
+    }
 }
