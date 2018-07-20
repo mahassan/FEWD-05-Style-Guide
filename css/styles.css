@@ -1,6 +1,7 @@
 @import '_normalize.css';
 /*Grid system*/
 /* Base Styles */
+@import url("HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif);
 body {
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   margin: 40px;

@@ -1,0 +1,3 @@
+@if variable-exists(font-primary ){
+    @import url($font-primary);
+}
