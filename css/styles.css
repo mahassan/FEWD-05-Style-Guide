@@ -127,6 +127,11 @@ h4 {
   flex-grow: 0.5;
   margin: 0 auto;
 }
+@media screen and (min-width: 768px) {
+  .grid__row {
+    display: flex;
+  }
+}
 
 .card > p {
   text-align: left;
