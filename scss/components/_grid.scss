@@ -8,6 +8,10 @@
 }
 [class^=grid__col]{
     @include flexy($display:flex, $direction:column);
+    @media screen and (min-width:768px) {
+        @include flexy($display:flex, $direction:row);
+        // flex:2;
+    }
 }
 [class^=grid__col]:first-of-type{
    margin-top:50px;
@@ -16,16 +20,25 @@
    }
 }
 .grid__row:not(:first-child){
+    .grid{
+        &__col--8{
+        flex-basis:30%;
+      }
+      &__col--7:last-child{
+         flex-grow:1;
+      }
+    }
+.grid__row{
+    .grid__col--5 + .grid__col-7{
+        border:10px solid red;
+    }
+}
+
     @media screen and (min-width:768px){
         @include flexy($display:flex);
         [class^=grid__col]{
-            flex: 1;
+            flex-grow: 1;
         }
     }
 }
-.grid__row:nth-child(4){
-    @media screen and (min-width:768px){
-        @include flexy($display:flex);
-        border:11px solid red;
-    }
-}
+

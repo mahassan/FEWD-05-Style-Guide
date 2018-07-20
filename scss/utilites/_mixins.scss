@@ -22,11 +22,13 @@
     @each $theme, $color in $map {
         &--#{$theme}.theme__colors{
             background:$color;
+            border:0;
             @include spacer($margin:7px , $padding:10px);
             @include roundy($corners:5px);
             @content;
             color:$text;
             text-transform: $typecase;
+            flex-grow:1;
         }
     }
  }

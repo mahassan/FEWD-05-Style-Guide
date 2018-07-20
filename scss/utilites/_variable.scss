@@ -1,4 +1,4 @@
-$color-primary      :   #58e1c1;
+$color-primary      : #58e1c1;
 $color-secondary    : #51ddfc;
 $color-text         : #5a5a5a;
 $white              : #fff;
@@ -19,7 +19,7 @@ $logo               :"../utilites/scss/images/logo.png";
 //Buttons
 
 $buttons : (
-    default : $color-primary,
+    default : $color-secondary,
     success : #63cc82,
     error   : #e4757e,
     warning : #fd7856,
