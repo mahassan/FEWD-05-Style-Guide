@@ -19,21 +19,16 @@
        margin-top:0;
    }
 }
-.grid__row:not(:first-child){
+.grid__row{
     .grid{
         &__col--8{
         flex-basis:30%;
       }
-      &__col--7:last-child{
-         flex-grow:1;
-      }
     }
-.grid__row{
-    .grid__col--5 + .grid__col-7{
-        border:10px solid red;
+    .centered{
+        flex-grow: .5;
+        margin: 0 auto;
     }
-}
-
     @media screen and (min-width:768px){
         @include flexy($display:flex);
         [class^=grid__col]{
@@ -41,4 +36,5 @@
         }
     }
 }
+
 

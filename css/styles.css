@@ -120,20 +120,18 @@ h4 {
   }
 }
 
-.grid__row:not(:first-child) .grid__col--8 {
+.grid__row .grid__col--8 {
   flex-basis: 30%;
 }
-.grid__row:not(:first-child) .grid__col--7:last-child {
-  flex-grow: 1;
-}
-.grid__row:not(:first-child) .grid__row .grid__col--5 + .grid__col-7 {
-  border: 10px solid red;
+.grid__row .centered {
+  flex-grow: 0.5;
+  margin: 0 auto;
 }
 @media screen and (min-width: 768px) {
-  .grid__row:not(:first-child) {
+  .grid__row {
     display: flex;
   }
-  .grid__row:not(:first-child) [class^=grid__col] {
+  .grid__row [class^=grid__col] {
     flex-grow: 1;
   }
 }
