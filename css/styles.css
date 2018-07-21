@@ -668,18 +668,13 @@ h4 {
   text-transform: uppercase;
 }
 
-[class*=btn--] {
-  display: flex;
-  flex-direction: row;
+[class^=btn--] {
+  align-self: stretch;
+  margin-right: 40px;
+  width: 100%;
 }
-@media screen and (min-width: 769px) {
-  [class*=btn--] {
-    display: flex;
-  }
-}
-.grid__col--12 [class*=btn--] {
-  display: flex;
-  border: 2px solid red;
+[class^=btn--]:last-of-type {
+  margin-right: 0;
 }
 
 .form {
