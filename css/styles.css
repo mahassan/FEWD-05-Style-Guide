@@ -577,17 +577,16 @@ h4 {
     float: right;
   }
 }
-.grid__row li, ul li {
-  text-align: center;
-}
-.grid__row li a, ul li a {
+
+.nav__item a {
   text-decoration: none;
   display: block;
   margin: 5px;
   padding: 10px;
   color: #5a5a5a;
+  text-align: center;
 }
-.grid__row li a:hover, ul li a:hover {
+.nav__item a:hover {
   background: #58e1c1;
   color: #fff;
   color: 25px;

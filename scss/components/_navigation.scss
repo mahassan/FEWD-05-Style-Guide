@@ -5,18 +5,21 @@
            float:right;
        }
     }
-    li{
-        text-align: center;
+}
+.nav__item{
+    // li{
+    //     text-align: center;
             a{
             text-decoration: none;
             display: block;
             @include spacer($margin:5px, $padding:10px);
             color:$color-text;
+            text-align: center;
             &:hover{
                 background:$color-primary;
                 color: $white;
                 @include roundy(25px);
             }
         }
-    }
+    //}
 }
