@@ -1,25 +1,20 @@
 .btn{
     @include themes($buttons, $text:white, $typecase:uppercase);
 }
-// [class*="btn--"]{
-//     display: flex;
-//     flex-direction: row;
-//     @media screen and (min-width: $breakpoint-l){
-//         display: flex;
-//     }
-//    .grid__col--12 &{
-//        @include flexy($display:flex);
-//        border:2px solid red;
-//    }
-// }
-
-
 [class^='btn--'] {
     // margin-left: em(30px);
     align-self:stretch;
-    margin-right: 40px;
+    margin-right: em(40px);
     width: 100%;
     &:last-of-type {
       margin-right: 0;
     }
+    @media screen and (min-width:$breakpoint-l){
+        
+    }
   }
+.grid__col--12{
+    @media screen and (min-width:$breakpoint-l){
+        display:flex;
+    }
+}

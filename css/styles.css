@@ -670,11 +670,16 @@ h4 {
 
 [class^=btn--] {
   align-self: stretch;
-  margin-right: 40px;
+  margin-right: em(40px);
   width: 100%;
 }
 [class^=btn--]:last-of-type {
   margin-right: 0;
+}
+@media screen and (min-width: 769px) {
+  .grid__col--12 {
+    display: flex;
+  }
 }
 
 .form {
