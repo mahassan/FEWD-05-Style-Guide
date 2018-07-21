@@ -1,21 +1,29 @@
  .img{
-    &--logo{
+    &--logo,
+    &--avatar,
+    &--frame{
        display: block;
        margin: 0 auto;
+       @media screen and (min-width:$breakpoint-l){
+           margin:0;
+       }
     }
     &--avatar,
     &--frame{
         width:200px;
         height:200px;
-        align-self: center;
-        margin:10px 0;
     }
-    &--frame:first-child{
+    &--frame{
        border:1px solid lighten($color-text, 40%);
        padding:10px;
-        @media screen and (min-width:768px){
+       margin-bottom:40px;
+        @media screen and (min-width:$breakpoint-l){
             width:402px;
             height: 200px;
         }
+    }
+    &--avatar{
+        display: block;
+        margin: 0 auto;
     }
 }

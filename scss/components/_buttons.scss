@@ -1,3 +1,11 @@
 .btn{
     @include themes($buttons, $text:white, $typecase:uppercase);
 }
+[class*="btn--"]{
+   display:block;
+   margin:5px auto;
+   width:100%;
+   @media screen and (min-width:$breakpoint-l){
+       border:10px solid red;
+   }
+}

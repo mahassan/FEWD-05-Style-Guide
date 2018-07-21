@@ -7,21 +7,30 @@
         color:$color-text;
 }
 [class^=grid__col]{
-    @media screen and (min-width:768px) {
-        @include flexy($display:flex, $direction:row);
-        flex-grow: 1;
+    @media screen and (min-width:$breakpoint-l) {
+        //@include flexy($display:flex, $direction:row);
+        //flex-grow: 1;
     }
 }
+// .grid__row{
+
+// }
 .grid__row{
-   ~.grid__row{  
+    ~.grid__row{  
         margin-top:40px;
-        @media screen and (min-width:768px){
+        @media screen and (min-width:$breakpoint-l){
             margin-top:0;
         }
     }
-}
-.grid__row{
     >.grid{
+        @media screen and (min-width:$breakpoint-l){
+            &__col--4,
+            &__col--6:first-of-type{
+                flex-basis: 50%;
+                margin-left:90px;
+                box-sizing: border-box;
+            }
+        }
         &__col--5.theme__colors + .grid__col--7.theme__colors{
             flex-basis: 40%;
         }
@@ -30,12 +39,12 @@
       }
     }
     .centered{
-        @media screen and (min-width:768px) {
+        @media screen and (min-width:$breakpoint-l) {
             flex-grow: .5;
             margin: 0 auto;         
         }
     }
-    @media screen and (min-width:768px){
+    @media screen and (min-width:$breakpoint-l){
         @include flexy($display:flex);
     }
 }
