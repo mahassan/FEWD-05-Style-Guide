@@ -27,6 +27,11 @@ $buttons : (
 );
 
 /*Grid system*/
+$g-col-width : 65px;
+$g-gutter-width : 20px;
+$g-col-count    : 12;
+$g-cont-max-w    : 1050px;
+
 $grids : (
     2    : #c8bccc,
     3  : #deb2ee,
