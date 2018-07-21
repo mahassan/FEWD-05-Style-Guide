@@ -1,7 +1,5 @@
 @if variable-exists(font-primary ){
     @import url($font-primary);
-}
-@function g-content($g-col-width, $g-col-count, $g-gutter-width){
-    $g-context: ($g-col-width * $g-col-count) + ($g-gutter-width * ($g-col-count) - 1);
-    @return $g-contex;
+}@else{
+    @error "primary font variable doesn't have any value";
 }

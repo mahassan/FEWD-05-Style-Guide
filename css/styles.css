@@ -340,6 +340,8 @@ body {
 
 ul {
   list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 p {
@@ -443,7 +445,7 @@ h4 {
 }
 
 .grid__col--1 {
-  width: 7.3684210526%;
+  width: 0.0736842105;
 }
 @media (min-width: 768px) {
   .grid__col--1 {
@@ -452,7 +454,7 @@ h4 {
 }
 
 .grid__col--2 {
-  width: 15.7894736842%;
+  width: 0.1578947368;
 }
 @media (min-width: 768px) {
   .grid__col--2 {
@@ -461,7 +463,7 @@ h4 {
 }
 
 .grid__col--3 {
-  width: 24.2105263158%;
+  width: 0.2421052632;
 }
 @media (min-width: 768px) {
   .grid__col--3 {
@@ -470,7 +472,7 @@ h4 {
 }
 
 .grid__col--4 {
-  width: 32.6315789474%;
+  width: 0.3263157895;
 }
 @media (min-width: 768px) {
   .grid__col--4 {
@@ -479,7 +481,7 @@ h4 {
 }
 
 .grid__col--5 {
-  width: 41.0526315789%;
+  width: 0.4105263158;
 }
 @media (min-width: 768px) {
   .grid__col--5 {
@@ -488,7 +490,7 @@ h4 {
 }
 
 .grid__col--6 {
-  width: 49.4736842105%;
+  width: 0.4947368421;
 }
 @media (min-width: 768px) {
   .grid__col--6 {
@@ -497,7 +499,7 @@ h4 {
 }
 
 .grid__col--7 {
-  width: 57.8947368421%;
+  width: 0.5789473684;
 }
 @media (min-width: 768px) {
   .grid__col--7 {
@@ -506,7 +508,7 @@ h4 {
 }
 
 .grid__col--8 {
-  width: 66.3157894737%;
+  width: 0.6631578947;
 }
 @media (min-width: 768px) {
   .grid__col--8 {
@@ -515,7 +517,7 @@ h4 {
 }
 
 .grid__col--9 {
-  width: 74.7368421053%;
+  width: 0.7473684211;
 }
 @media (min-width: 768px) {
   .grid__col--9 {
@@ -524,7 +526,7 @@ h4 {
 }
 
 .grid__col--10 {
-  width: 83.1578947368%;
+  width: 0.8315789474;
 }
 @media (min-width: 768px) {
   .grid__col--10 {
@@ -533,7 +535,7 @@ h4 {
 }
 
 .grid__col--11 {
-  width: 91.5789473684%;
+  width: 0.9157894737;
 }
 @media (min-width: 768px) {
   .grid__col--11 {
@@ -542,7 +544,7 @@ h4 {
 }
 
 .grid__col--12 {
-  width: 100%;
+  width: 1;
 }
 @media (min-width: 768px) {
   .grid__col--12 {
