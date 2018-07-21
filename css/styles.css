@@ -570,33 +570,27 @@ h4 {
 }
 
 @media screen and (min-width: 769px) {
-  .grid__row:first-of-type, ul {
+  .grid__row, ul {
     display: flex;
   }
-  .grid__row:first-of-type ul, ul ul {
+  .grid__row ul, ul ul {
     float: right;
   }
 }
-.grid__row:first-of-type li, ul li {
+.grid__row li, ul li {
   text-align: center;
 }
-.grid__row:first-of-type li a, ul li a {
+.grid__row li a, ul li a {
   text-decoration: none;
   display: block;
   margin: 5px;
   padding: 10px;
   color: #5a5a5a;
 }
-.grid__row:first-of-type li a:hover, ul li a:hover {
+.grid__row li a:hover, ul li a:hover {
   background: #58e1c1;
   color: #fff;
   color: 25px;
-}
-
-@media screen and (min-width: 769px) {
-  .grid__row:first-of-type {
-    justify-content: space-between;
-  }
 }
 
 .img--logo, .img--avatar, .img--frame {
@@ -675,14 +669,17 @@ h4 {
 }
 
 [class*=btn--] {
-  display: block;
-  margin: 5px auto;
-  width: 100%;
+  display: flex;
+  flex-direction: row;
 }
 @media screen and (min-width: 769px) {
   [class*=btn--] {
-    border: 10px solid red;
+    display: flex;
   }
+}
+.grid__col--12 [class*=btn--] {
+  display: flex;
+  border: 2px solid red;
 }
 
 .form {

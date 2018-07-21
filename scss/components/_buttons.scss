@@ -2,10 +2,14 @@
     @include themes($buttons, $text:white, $typecase:uppercase);
 }
 [class*="btn--"]{
-   display:block;
-   margin:5px auto;
-   width:100%;
-   @media screen and (min-width:$breakpoint-l){
-       border:10px solid red;
+    display: flex;
+    flex-direction: row;
+    @media screen and (min-width: $breakpoint-l){
+        display: flex;
+    }
+   .grid__col--12 &{
+       @include flexy($display:flex);
+       border:2px solid red;
    }
 }
+
