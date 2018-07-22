@@ -1,6 +1,9 @@
 .container{
     width: 90%;
     margin:20px auto;
+    @media screen and (min-width:$breakpoint-l) {
+        width: $breakpoint-l;
+    }
 }
 .grid__col{
         @include themes($grids);
