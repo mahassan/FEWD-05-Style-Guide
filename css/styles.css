@@ -452,7 +452,7 @@ h4 {
 .grid__col--1 {
   width: 0.0736842105;
 }
-@media (min-width: 768px) {
+@media (min-width: 769px) {
   .grid__col--1 {
     width: 7.3684210526%;
   }
@@ -461,7 +461,7 @@ h4 {
 .grid__col--2 {
   width: 0.1578947368;
 }
-@media (min-width: 768px) {
+@media (min-width: 769px) {
   .grid__col--2 {
     width: 15.7894736842%;
   }
@@ -470,7 +470,7 @@ h4 {
 .grid__col--3 {
   width: 0.2421052632;
 }
-@media (min-width: 768px) {
+@media (min-width: 769px) {
   .grid__col--3 {
     width: 24.2105263158%;
   }
@@ -479,7 +479,7 @@ h4 {
 .grid__col--4 {
   width: 0.3263157895;
 }
-@media (min-width: 768px) {
+@media (min-width: 769px) {
   .grid__col--4 {
     width: 32.6315789474%;
   }
@@ -488,7 +488,7 @@ h4 {
 .grid__col--5 {
   width: 0.4105263158;
 }
-@media (min-width: 768px) {
+@media (min-width: 769px) {
   .grid__col--5 {
     width: 41.0526315789%;
   }
@@ -497,7 +497,7 @@ h4 {
 .grid__col--6 {
   width: 0.4947368421;
 }
-@media (min-width: 768px) {
+@media (min-width: 769px) {
   .grid__col--6 {
     width: 49.4736842105%;
   }
@@ -506,7 +506,7 @@ h4 {
 .grid__col--7 {
   width: 0.5789473684;
 }
-@media (min-width: 768px) {
+@media (min-width: 769px) {
   .grid__col--7 {
     width: 57.8947368421%;
   }
@@ -515,7 +515,7 @@ h4 {
 .grid__col--8 {
   width: 0.6631578947;
 }
-@media (min-width: 768px) {
+@media (min-width: 769px) {
   .grid__col--8 {
     width: 66.3157894737%;
   }
@@ -524,7 +524,7 @@ h4 {
 .grid__col--9 {
   width: 0.7473684211;
 }
-@media (min-width: 768px) {
+@media (min-width: 769px) {
   .grid__col--9 {
     width: 74.7368421053%;
   }
@@ -533,7 +533,7 @@ h4 {
 .grid__col--10 {
   width: 0.8315789474;
 }
-@media (min-width: 768px) {
+@media (min-width: 769px) {
   .grid__col--10 {
     width: 83.1578947368%;
   }
@@ -542,7 +542,7 @@ h4 {
 .grid__col--11 {
   width: 0.9157894737;
 }
-@media (min-width: 768px) {
+@media (min-width: 769px) {
   .grid__col--11 {
     width: 91.5789473684%;
   }
@@ -551,7 +551,7 @@ h4 {
 .grid__col--12 {
   width: 1;
 }
-@media (min-width: 768px) {
+@media (min-width: 769px) {
   .grid__col--12 {
     width: 100%;
   }
@@ -612,7 +612,7 @@ h4 {
 }
 @media screen and (min-width: 769px) {
   .img--frame {
-    width: 402px;
+    width: 100%;
     height: 200px;
     margin-right: 10px;
   }
@@ -620,6 +620,7 @@ h4 {
 .img--avatar {
   display: block;
   margin: 0 auto;
+  padding-top: 20px;
 }
 
 .btn--default.theme__colors {

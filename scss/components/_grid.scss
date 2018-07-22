@@ -31,7 +31,7 @@
 @for $i from 1 through 12 {
     .grid__col--#{$i} {
         width: (70 * $i + 10 * ($i - 1))/950;
-        @media(min-width: 768px) {
+        @media(min-width: $breakpoint-l) {
             width: percentage((70 * $i + 10 * ($i - 1))/950);
         }
     }
