@@ -427,18 +427,18 @@ h4 {
 .grid__row ~ .grid__row {
   margin-top: 40px;
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 1400px) {
   .grid__row ~ .grid__row {
     margin-top: 0;
   }
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 1400px) {
   .grid__row .centered {
     flex-grow: 0.5;
     margin: 0 auto;
   }
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 1400px) {
   .grid__row {
     display: flex;
   }
@@ -596,7 +596,7 @@ h4 {
   display: block;
   margin: 0 auto;
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 1400px) {
   .img--logo, .img--avatar, .img--frame {
     margin: 0;
   }
@@ -610,7 +610,7 @@ h4 {
   padding: 10px;
   margin-bottom: 40px;
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 1400px) {
   .img--frame {
     width: 402px;
     height: 200px;
@@ -675,7 +675,7 @@ h4 {
 [class^=btn--]:last-of-type {
   margin-right: 0;
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 1400px) {
   .grid__col--12 {
     display: flex;
   }
